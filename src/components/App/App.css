@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "JetBrains Mono", sans-serif;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 667px;
+  background-color: #18171F;
+}
+body main h1 {
+  text-align: center;
+  font-size: 1rem;
+  color: #817D92;
+}
+@media screen and (min-width: 768px) {
+  body main {
+    width: 768px;
+    height: 1024px;
+  }
+  body main h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body main {
+    width: 1440px;
+  }
+}/*# sourceMappingURL=App.css.map */
