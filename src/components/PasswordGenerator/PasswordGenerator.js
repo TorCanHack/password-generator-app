@@ -32,8 +32,6 @@ const PasswordGenerator = () => {
         if (includeNumbers) characters = characters.concat(numbers);
         if (includeSymbols) characters = characters.concat(symbols);
 
-        
-
         if (characters.length === 0) return '';
 
         let newPassWord = '';
