@@ -21,8 +21,8 @@ body {
     main {
 
         @include flex-center();
-        width: 375px;
-        height: 667px;
+        width: min(100%, 430px);
+        height: 100vh;
         background-color: #18171F;
 
         h1 {
